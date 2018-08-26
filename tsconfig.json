@@ -5,7 +5,8 @@
     "module": "es6",
     "noImplicitAny": true,
     "outDir": "./dist",
-    "target": "esnext"
+    "target": "esnext",
+    "experimentalDecorators": true
   },
   "include": [
     "packages/**/*.ts"

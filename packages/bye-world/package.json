@@ -10,5 +10,8 @@
   "scripts": {
   },
   "devDependencies": {
+  },
+  "peerDependencies": {
+    "@dvelasquez/ce-property": "*"
   }
 }

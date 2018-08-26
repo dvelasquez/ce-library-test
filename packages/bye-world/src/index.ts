@@ -1,18 +1,14 @@
+import Property from '@dvelasquez/ce-property';
+
 class ByeWorld extends HTMLElement {
+    @Property
+    private superAttribute: string;
     constructor() {
         super();
     }
 
     connectedCallback() {
         this.innerHTML = `<h1>bye world</h1>`;
-    }
-
-    get superTitle(): string {
-        return this.getAttribute('super-title');
-    }
-
-    set superTitle(newTitle: string) {
-        this.setAttribute('super-title', newTitle);
     }
 }
 

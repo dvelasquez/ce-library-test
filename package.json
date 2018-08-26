@@ -12,6 +12,9 @@
     "rollup-plugin-typescript2": "^0.16.1",
     "typescript": "^3.0.1"
   },
+  "dependencies": {
+    "@dvelasquez/ce-property": "*"
+  },
   "workspaces": [
     "packages/*"
   ]

@@ -1,0 +1,14 @@
+{
+  "name": "@dvelasquez/ce-property",
+  "version": "1.0.0",
+  "main": "dist/index.esnext.js",
+  "module": "dist/index.esnext.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/ce-property/src/index.d.ts",
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
