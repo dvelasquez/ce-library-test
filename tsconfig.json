@@ -6,7 +6,8 @@
     "noImplicitAny": true,
     "outDir": "./dist",
     "target": "esnext",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": [
     "packages/**/*.ts"

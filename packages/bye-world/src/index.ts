@@ -1,7 +1,7 @@
-import Property from '@dvelasquez/ce-property';
+import {Property} from '@dvelasquez/ce-property';
 
 class ByeWorld extends HTMLElement {
-    @Property
+    @Property()
     private superAttribute: string;
     constructor() {
         super();

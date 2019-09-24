@@ -28,6 +28,7 @@ export default formats.map(format => ({
     file: path.join(OUTPUT_DIR, `index.${format.ts}.js`),
     format: format.dist,
     sourcemap: true,
-    name: PKG_JSON.name
+    name: PKG_JSON.name,
+    exports: 'named'
   },
 }));
